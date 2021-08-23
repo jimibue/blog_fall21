@@ -6,6 +6,7 @@ const NewPage = () => {
   return (
     <div className="container">
       <h1>Form</h1>
+      <a href="/">back</a>
       <form action="/pages" method="post">
         <p>title</p>
         <input name="page[title]" />
